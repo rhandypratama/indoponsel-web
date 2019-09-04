@@ -1,0 +1,61 @@
+/* AUTOCOMPLETE CUSTOM CSS */
+ul.customSuggestList li.ui-menu-item {
+    line-height: 1px;
+    /* padding: 5px; */
+}
+
+ul.customSuggestList li:last-child {
+    border-bottom: none;
+}
+
+ul.customSuggestList li.ui-menu-item a {
+    line-height: 1px;
+    padding: 5px 0.4em;
+}
+
+ul.customSuggestList li.ui-menu-item a img {
+    /* height: 60px; */
+    height: 28px;
+}
+
+ul.customSuggestList li.ui-menu-item a .device_name {
+    color: #000;
+    font-size: .69pc;
+    /*font-weight: bold;*/
+    padding-left: 12px;
+    vertical-align: middle;
+    font-family: "Lato", sans-serif;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    /* background: #fec10b1e; */
+    border-left: 3px solid #fec10b;
+}
+
+ul.customSuggestList li.ui-menu-item:hover {
+    background: #fec10b1e;
+    /* border-left: 3px solid #fec10b; */
+    text-decoration: none;
+}
+
+ul.customSuggestList li.ui-menu-item a:hover {
+    /* background: #f9f9f9; */
+    border: 0px;
+    /* text-decoration: none !important; */
+}
+
+.table tr {
+    border-bottom: 1px solid;
+}
+
+.ui-autocomplete-loading {
+    background: url('../images/Ripple-1.5s-200px.svg') no-repeat right center
+}

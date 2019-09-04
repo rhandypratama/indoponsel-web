@@ -1,0 +1,42 @@
+.leftside{
+	width: 210px;
+}
+.leftside .widget .footer{
+	width: 210px;
+}
+header .logo{
+	width: 210px;
+}
+.fixed-leftside .rightside{
+	margin-left:210px;
+}
+header .navbar{
+	margin-left:210px;
+}
+.navbar-btn{
+		display: none;
+	}
+.leftside .nav-profile > .info{
+	width: 100px;
+}
+
+.auth-page, header .logo, .leftside, .leftside .widget .footer{
+	/*background-color: #009688;*/
+	/* background-color: #037267; */
+	background-color: #0D47A1;
+}
+
+.rightside > .page-head{
+	padding:10px 30px;
+}
+.rightside > .page-head > .breadcrumb{
+	top:10px;
+}
+.leftside .nav-profile > .info > ul > li > a{
+	font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+	.navbar-btn{
+		display: block;
+	}
+}
